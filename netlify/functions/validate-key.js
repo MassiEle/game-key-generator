@@ -15,7 +15,7 @@ exports.handler = async function(event, context) {
   const connection = mysql.createConnection({
     host: 'ImNotEternal.mysql.pythonanywhere-services.com',
     user: 'ImNotEternal',
-    password: 'Massimo10',
+    password: 'Massimo10#',
     database: 'ImNotEternal$AdminPanelDB',
   });
 
