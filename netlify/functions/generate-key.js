@@ -8,10 +8,10 @@ exports.handler = async function(event, context) {
 
   // Connessione al database (modifica con i tuoi parametri)
   const connection = mysql.createConnection({
-    host: 'your-mysql-host',
-    user: 'your-username',
-    password: 'your-password',
-    database: 'your-database',
+    host: 'ImNotEternal.mysql.pythonanywhere-services.com',
+    user: 'ImNotEternal',
+    password: 'Massimo10#',
+    database: 'ImNotEternal$AdminPanelDB',
   });
 
   try {
